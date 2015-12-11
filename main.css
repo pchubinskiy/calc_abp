@@ -1,8 +1,22 @@
 body {
   text-align: center;
   font-size: 14px;
+  background-color: lightGray;
+}
+
+.wrapper {
+  margin: 0 5%;
 }
 
 .calc {
   margin-top: .3em;
+}
+
+.calculator {
+  padding: 2% 2%;
+}
+
+.page-header {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 10em;
 }
