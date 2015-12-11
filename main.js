@@ -6,7 +6,7 @@ $(function() {
 		box.val('');
 	});
 
-	$("#zero, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine").click(function(){
+	$("#zero, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #decimal").click(function(){
 		var n = $(this).val();
     box.val(box.val() + n);
 	});
