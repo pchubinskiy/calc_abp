@@ -1,29 +1,51 @@
 $(function() {
-	var btn_one = $("#one").click(function(){
+	
+	var box = $("input");
+	
+	$("#clear").click(function() {
+		box.val(0);
+	});
+	
+	$("#zero").click(function(){
 		
 	});
-	var btn_two = $("#two").click(function(){
+	$("#one").click(function(){
 		
 	});
-	var btn_three = $("#three").click(function(){
+	$("#two").click(function(){
 		
 	});
-	var btn_four = $("#four").click(function(){
+	$("#three").click(function(){
 		
 	});
-	var btn_five = $("#five").click(function(){
+	$("#four").click(function(){
 		
 	});
-	var btn_six = $("#six").click(function(){
+	$("#five").click(function(){
 		
 	});
-	var btn_seven = $("#seven").click(function(){
+	$("#six").click(function(){
 		
 	});
-	var btn_eight = $("#eight").click(function(){
+	$("#seven").click(function(){
 		
 	});
-	var btn_nine = $("#nine").click(function(){
+	$("#eight").click(function(){
+		
+	});
+	$("#nine").click(function(){
+		
+	});
+	$("#plus").click(function(){
+		
+	});
+	$("#subtract").click(function(){
+		
+	});
+	$("#multiply").click(function(){
+		
+	});
+	$("#divide").click(function(){
 		
 	});
 	
