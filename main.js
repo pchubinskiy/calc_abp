@@ -1,6 +1,7 @@
 $(function() {
 
   var box = $("input");
+  var log = $('textarea');
   var add, minus, multiply, divide;
   var num;
 
@@ -65,6 +66,7 @@ $(function() {
     } else {
       //$(body).insertBefore("img", );
     }
+    log.prepend(box.val() + "\n");
   });
 });
 
